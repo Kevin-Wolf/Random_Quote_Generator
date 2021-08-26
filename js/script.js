@@ -99,7 +99,7 @@ if (myRandomQuote.citation) {
 } 
 
 if (myRandomQuote.year) {
-  htmlString += `<span class="year">${myRandomQuote.citation}</span>`
+  htmlString += `<span class="year">${myRandomQuote.year}</span>`
 }
 
 if (myRandomQuote.tag) {
